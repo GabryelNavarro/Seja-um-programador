@@ -1,0 +1,261 @@
+@font-face {
+    font-family: segundaria;
+    src: url("font/Raleway-Italic-VariableFont_wght.ttf");
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body{background-image: url("img/planodefundo.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+header{
+    background-image: url("img/planodefundo.jpg");
+    height: 150px;
+    border: 2px solid rgba(0, 0, 0, 0.308);
+    border-radius: 1PX;
+    box-shadow: 0px 0px 8px black;
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size:cover;
+    background-attachment:fixed ;
+    
+}
+
+
+header > h1{
+    text-align: center;
+    color: white;
+    top: 15px;
+    font-family:monospace;
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgb(255, 6, 6);
+    top: 20px;
+    position: relative;
+    letter-spacing: 4px;
+    text-transform:uppercase ;
+}
+
+
+
+
+header > p{
+    text-align: center;
+    color: white;
+    top: 1px;
+    position: relative;
+    font-size: 8.6pt;
+    font-weight: bolder;
+    top: 10px;
+    font-family: monospace;
+    text-shadow: 0px 0px 3px white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 8px rgb(0, 137, 228);
+}
+
+.logo{
+    width:60px;
+    left: 10px;
+    bottom: -25px;
+    position: relative;
+}
+
+nav{
+    
+    word-spacing: 12px;
+    border-bottom-left-radius: 59cm;
+    border-bottom-right-radius:50cm;
+    top: 5px;
+    position: absolute;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.507);
+    box-shadow: 0px 0px 29px black;
+    
+    left: 1%;
+    background-color: rgba(255, 255, 255, 0.274);
+    font-family: monospace;
+    height: 25px;
+    width: 300px;
+    border: 1px solid rgba(83, 0, 0, 0.623);
+}
+a{
+    top: 5px;
+    text-decoration: none;
+    color: rgba(0, 217, 255, 0.904);
+    font-size: 12px;
+    font-family: monospace;font-weight: bolder;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+
+}
+    .home{
+        
+    }
+
+.home:hover{
+    top: 4px;
+
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
+    transition: 0.9s;
+    background-color: rgba(255, 0, 0, 0.644);
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px red;
+    box-shadow: 0px 0px 20px black;
+    border: 1px solid rgb(58, 0, 0);
+    position: relative;
+    padding: 5.5px;
+    margin: -5.4px;
+    right: 5px;
+
+
+}
+
+
+
+.html:hover{
+    top: 4px;
+
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
+    transition: 0.9s;
+    background-color: rgba(255, 0, 0, 0.644);
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px red;
+    box-shadow: 0px 0px 20px black;
+    border: 1px solid rgb(58, 0, 0);
+    position: relative;
+    padding: 5.5px;
+    margin: -5.4px;
+    right: 5px;
+
+    
+
+}
+.css:hover{
+    top: 4px;
+
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
+    transition: 0.9s;
+    background-color: rgba(255, 0, 0, 0.644);
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px red;
+    box-shadow: 0px 0px 20px black;
+    border: 1px solid rgb(58, 0, 0);
+    position: relative;
+    padding: 5.5px;
+    margin: -5.4px;
+    right: 5px;
+
+}
+.python:hover{
+    top: 4px;
+
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
+    transition: 0.9s;
+    background-color: rgba(255, 0, 0, 0.644);
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px red;
+    box-shadow: 0px 0px 20px black;
+    border: 1px solid rgb(58, 0, 0);
+    position: relative;
+    padding: 5.5px;
+    margin: -5.4px;
+    right: 5px;
+
+    
+}
+
+.sobre:hover{
+    top: 4px;
+
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
+    transition: 0.9s;
+    background-color: rgba(255, 0, 0, 0.644);
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px red;
+    box-shadow: 0px 0px 20px black;
+    border: 1px solid rgb(58, 0, 0);
+    position: relative;
+    padding: 5.5px;
+    margin: -5.4px;
+    right: 5px;
+
+}
+
+main{ padding: 1%;
+    
+    
+    
+}
+    article{
+        
+        top: 20px;
+        position: relative;
+        padding: 0%;
+        left: 2%;
+       width: 1000px;
+        
+    }
+p{text-align: justify;
+text-indent: 30px;
+color: rgba(38, 226, 0, 0.897);
+text-shadow: 1px 0px 10px rgb(0, 0, 0);
+text-transform: capitalize
+;
+
+}
+
+
+.texto{
+    background-color: rgba(10, 10, 10, 0.801);
+    border-radius: 7px;
+    box-shadow: 0px 0px 8px rgba(247, 0, 0, 0.61);
+  
+    
+}
+
+
+h2{
+    text-align: left;
+    text-indent: 50px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.527), rgb(0, 194, 0),rgba(0, 128, 0, 0.13));
+    border-radius: 10px;
+    color: rgb(0, 195, 255);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-family: monospace;
+    text-shadow: 0px 5px 8px black;
+}
+
+h3{
+background-image: linear-gradient(to right,rgba(255, 0, 0, 0.664),rgba(255, 0, 0, 0.055));
+position: relative;
+padding: 0%;
+width: 300px;
+border-radius: 10px;
+
+}
+
+ul{
+    list-style: none;
+    
+}
