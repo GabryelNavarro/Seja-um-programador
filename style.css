@@ -2,7 +2,10 @@
     font-family: segundaria;
     src: url("font/Raleway-Italic-VariableFont_wght.ttf");
 }
-
+@font-face {
+    font-family: footer;
+    src: url("font/hacka___.ttf");
+}
 *{
     padding: 0%;
     margin: 0%;
@@ -27,6 +30,7 @@ header{
     background-position: center  ;
     background-size:cover;
     background-attachment:fixed ;
+   
     
 }
 
@@ -67,6 +71,10 @@ header > p{
     left: 10px;
     bottom: -25px;
     position: relative;
+    opacity: 90%;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px white;
 }
 
 nav{
@@ -247,15 +255,99 @@ h2{
 }
 
 h3{
-background-image: linear-gradient(to right,rgba(255, 0, 0, 0.664),rgba(255, 0, 0, 0.055));
-position: relative;
-padding: 0%;
+background: linear-gradient( to right, rgba(1, 252, 34, 0.39),rgba(255, 0, 0, 0.712),rgba(255, 0, 0, 0.096));
+text-align: justify;
+text-indent: 20px;
+border-radius: 20px;
 width: 300px;
-border-radius: 10px;
-
+box-shadow: 0px 0px 8px black;
+color: rgb(221, 245, 0);
+text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.342);
+text-transform: uppercase;
+font-family: monospace;
+font-size: 13.5pt;
+letter-spacing: 1px;
 }
 
 ul{
     list-style: none;
     
+}
+
+.fim{
+    background-image: url("img/planodefundo.jpg");
+    height: 150px;
+    background-position:  left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 20px;
+    
+    
+}
+.fim > p{
+    text-align: left;
+    position: relative;
+    top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgba(255, 247, 247, 0.712);
+    font-family: footer;
+    font-size: 20pt;
+    text-shadow: 0px 0px 8px rgba(255, 0, 0, 0.753)
+;
+    
+    
+}
+.in{
+    width: 40px;
+    opacity: 60%;
+    position: absolute;
+    bottom: 55px;
+    margin-left: 10PX;
+}
+.git{
+    width: 43px;
+    opacity: 40%;
+    position: absolute;
+    bottom:53px;
+    margin-left: 70pX;
+}
+.in:hover{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 8px 08px 0px rgba(0, 0, 0, 0.404);
+    transition: 0.5s;
+    opacity: 100%;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 10px;
+}
+
+.git:hover{
+    position: absolute;
+   
+    box-shadow: 8px 08px 0px rgba(0, 0, 0, 0.404);
+    transition: 0.5s;
+    opacity: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+.fim > a{
+    top: 30%;
+    ;
+}
+
+.b{
+    width: 60px;
+    position: relative;
+    bottom:30px;
+    border: 1px solid rgb(250, 248, 248);
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px rgba(245, 243, 243, 0.705);
+    opacity: 78%;
+    margin-left: 95%;
 }
