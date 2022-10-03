@@ -1,3 +1,4 @@
-Seja-um-programador
+SEJA UM PROGRAMADOR.
+
 
 LINK: https://gabryelnavarro.github.io/Seja-um-programador/
