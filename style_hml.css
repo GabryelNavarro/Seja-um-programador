@@ -23,9 +23,9 @@ body{background-image: url("img/planodefundo.jpg");
 header{
     background-image: url("img/planodefundo.jpg");
     height: 150px;
-    border: 2px solid rgba(0, 0, 0, 0.308);
+    border: 1px solid rgba(0, 0, 0, 0.616);
     border-radius: 1PX;
-    box-shadow: 0px 0px 8px black;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-position: center  ;
     background-size:cover;
@@ -44,12 +44,13 @@ header{
     box-shadow: 0px 0px 8px rgb(255,98,0);
 }
 .img_icone{
-    width: 60px;
-    position: relative;
-    top: 35px;
+    width:60px;
     left: 10px;
-    opacity: 80%;
-    border-radius: 32px;
+    top:29px;
+    position: relative;
+    opacity: 90%;
+    border: 1px solid white;
+    border-radius: 30px;
     box-shadow: 0px 0px 8px white;
 }
 
@@ -87,30 +88,31 @@ header > p{
 .logo{
     width:60px;
     left: 10px;
-    bottom: -25px;
+    bottom: 5px;
     position: relative;
-    opacity: 90%;
+    opacity: 95%;
     border: 1px solid white;
-    border-radius: 30px;
+    border-radius: 2px;
     box-shadow: 0px 0px 8px white;
 }
+
 
 nav{
     
     word-spacing: 12px;
     border-bottom-left-radius: 59cm;
     border-bottom-right-radius:50cm;
-    top: 5px;
+    top: 20px;
     position: absolute;
-    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.507);
+    
     box-shadow: 0px 0px 29px black;
     
-    left: 1%;
-    background-image: linear-gradient( to right,rgba(9, 255, 0, 0.449), rgba(197, 0, 0, 0.416), rgba(0, 128, 0, 0));
+    left: 2%;
+    background-image: linear-gradient( to right,rgba(255, 255, 255, 0), rgba(0, 224, 11, 0), rgba(30, 255, 0, 0));
     font-family: monospace;
     height: 25px;
     width: 300px;
-    border: 1px solid rgba(83, 0, 0, 0.623);
+    border: 1px solid rgba(255, 0, 0, 0.623);
 }
 nav > p > a{
     top:4px;
@@ -122,7 +124,7 @@ nav > p > a{
     text-transform: uppercase;
     letter-spacing: 1px;
     text-shadow: 0px 0px 8px rgb(0, 0, 0);
-    left: 20px;
+    left: 37px;
 
 }
     .home{
@@ -390,10 +392,10 @@ ul{
     top: 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgba(255, 247, 247, 0.712);
+    color: rgba(255, 247, 247, 0.781);
     font-family: footer;
     font-size: 20pt;
-    text-shadow: 0px 0px 8px rgba(255, 0, 0, 0.753);
+    text-shadow: 0px 0px 8px rgba(255, 0, 0, 0.719);
     margin-left: 10px;
     
     
