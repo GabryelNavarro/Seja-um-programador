@@ -117,17 +117,18 @@ a{
 
     font-weight: bolder;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
-    transition: 0.9s;
+    transition: 0.3s;
     background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));
     color: rgb(255, 255, 255);
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px red;
-    box-shadow: 0px 0px 20px black;
-    border: 1px solid rgb(58, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.63);
+   
+    border: 2.5px solid rgb(255, 255, 255);
     position: relative;
     padding: 5.5px;
     margin: -5.4px;
     right: 5px;
+   
 
 
 }
@@ -139,13 +140,13 @@ a{
 
     font-weight: bolder;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
-    transition: 0.9s;
-    background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));;
-    color: white;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px red;
-    box-shadow: 0px 0px 20px black;
-    border: 1px solid rgb(58, 0, 0);
+    transition: 0.3s;
+    background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.63);
+   
+    border: 2.5px solid rgb(255, 255, 255);
     position: relative;
     padding: 5.5px;
     margin: -5.4px;
@@ -159,31 +160,30 @@ a{
 
     font-weight: bolder;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
-    transition: 0.9s;
+    transition: 0.3s;
     background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));
-    color: white;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px red;
-    box-shadow: 0px 0px 20px black;
-    border: 1px solid rgb(58, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.63);
+   
+    border: 2.5px solid rgb(255, 255, 255);
     position: relative;
     padding: 5.5px;
     margin: -5.4px;
     right: 5px;
-
 }
 .python:hover{
     bottom: 10.5px;
 
     font-weight: bolder;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
-    transition: 0.9s;
+    transition: 0.3s;
     background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));
-    color: white;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px red;
-    box-shadow: 0px 0px 20px black;
-    border: 1px solid rgb(58, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.63);
+   
+    border: 2.5px solid rgb(255, 255, 255);
     position: relative;
     padding: 5.5px;
     margin: -5.4px;
@@ -197,13 +197,13 @@ a{
 
     font-weight: bolder;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
-    transition: 0.9s;
+    transition: 0.3s;
     background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));
-    color: white;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px red;
-    box-shadow: 0px 0px 20px black;
-    border: 1px solid rgb(58, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 8px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.63);
+   
+    border: 2.5px solid rgb(255, 255, 255);
     position: relative;
     padding: 5.5px;
     margin: -5.4px;
