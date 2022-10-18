@@ -1,0 +1,484 @@
+@font-face {
+    font-family: segundaria;
+    src: url("font/Raleway-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: footer;
+    src: url("font/hacka___.ttf");
+}
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body{background-image: url("img/planodefundo.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+header{
+    background-image: url("img/planodefundo.jpg");
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.616);
+    border-radius: 1PX;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size:cover;
+    background-attachment:fixed ;
+   
+    
+}
+
+.img_css{
+    width: 72px;
+    left: 720px;
+    position: relative;
+    bottom: 35px;
+}
+
+.img_html{
+    width: 75px;
+    position: relative;
+    left: 47.5%; 
+    bottom: 40px;
+    opacity: 90%;
+    border: 1px solid rgb(255, 98, 0);
+    border-radius: 90px;
+    box-shadow: 0px 0px 8px rgb(255,98,0);
+}
+.img_icone{
+    width:60px;
+    left: 10px;
+    top:29px;
+    position: relative;
+    opacity: 90%;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px white;
+}
+
+
+header > h1{
+    text-align: center;
+    color: white;
+    top: 15px;
+    font-family:monospace;
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgb(0, 26, 255);
+    top: 20px;
+    position: relative;
+    letter-spacing: 4px;
+    text-transform:uppercase ;
+}
+
+
+
+
+header > p{
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 8.6pt;
+    font-weight: bolder;
+    top: 23px;
+    font-family: monospace;
+    text-shadow: 0px 0px 3px white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 8px rgb(0, 137, 228);
+}
+
+.logo{
+    width:60px;
+    left: 10px;
+    bottom: 5px;
+    position: relative;
+    opacity: 95%;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: 0px 0px 8px white;
+}
+
+
+nav{
+    word-spacing: 12px;
+    border-radius: 50px 25px 25px 45px ;
+    top: 20px;
+    position: absolute;
+    
+    box-shadow: 0px 0px 29px rgba(41, 2, 2, 0.733);
+    
+    left: 2%;
+    background-image: linear-gradient( to right,rgba(53, 0, 0, 0.644), rgba(0, 46, 2, 0.822), rgba(54, 0, 5, 0.733));
+    font-family: monospace;
+    height: 25px;
+    width: 300px;
+}
+nav > p > a{
+    top:4px;
+    text-decoration: none;
+    color: rgba(0, 217, 255, 0.904);
+    font-size: 12px;
+    font-family: monospace;font-weight: bolder;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+    left: 37px;
+
+}
+    .home{
+        
+    }
+
+.home:hover{
+    top:15px;
+
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
+    transition: 0.3s;
+    background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));   
+     color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.486);
+    
+    border: 1px solid rgba(255, 0, 0, 0.514);
+    position: relative;
+    padding: 5.5px;
+    margin: -5.4px;
+    right: 2px;
+    text-align: start;
+
+}
+
+
+
+.html:hover{
+    top:15px;
+
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
+    transition: 0.3s;
+    background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));   
+     color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.486);
+    
+    border: 1px solid rgba(255, 0, 0, 0.514);
+    position: relative;
+    padding: 5.5px;
+    margin: -5.4px;
+    right: 2px;
+    text-align: start;
+
+
+}
+.css:hover{
+    top:15px;
+
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
+    transition: 0.3s;
+    background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));   
+     color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.486);
+    
+    border: 1px solid rgba(255, 0, 0, 0.514);
+    position: relative;
+    padding: 5.5px;
+    margin: -5.4px;
+    right: 2px;
+    text-align: start;
+
+}
+.python:hover{
+    top:15px;
+
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
+    transition: 0.3s;
+    background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));   
+     color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.486);
+    
+    border: 1px solid rgba(255, 0, 0, 0.514);
+    position: relative;
+    padding: 5.5px;
+    margin: -5.4px;
+    right: 2px;
+    text-align: start;
+
+    
+}
+
+.sobre:hover{
+    top:15px;
+
+    font-weight: bolder;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
+    transition: 0.3s;
+    background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));   
+     color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.486);
+    
+    border: 1px solid rgba(255, 0, 0, 0.514);
+    position: relative;
+    padding: 5.5px;
+    margin: -5.4px;
+    right: 2px;
+    text-align: start;
+
+}
+
+main{ padding: 1%;
+    
+    
+    
+}
+    article{
+        
+        top: 20px;
+        position: relative;
+        padding: 0%;
+        left: 2%;
+       width: 1000px;
+        
+    }
+
+.texto_a{background-color: rgba(10, 10, 10, 0.801);
+ border-radius: 7px;
+    box-shadow: 0px 0px 8px rgba(247, 0, 0, 0.61);
+    height: 200px;}
+
+    .texto_a >p{
+        text-align: justify;
+    text-indent: 30px;
+    color: rgba(38, 226, 0, 0.897);
+    text-shadow: 1px 0px 10px rgb(0, 0, 0);
+    text-transform: none;
+    margin: 8px;
+    position: relative;
+    bottom:10px;
+    }
+
+    .texto_a > h3{
+        position: relative;
+        left: 20px;
+        border-radius: 3px;
+    }
+    
+    .texto_b{
+        background-color: rgba(10, 10, 10, 0.801);
+        border-radius: 7px;
+        box-shadow: 0px 0px 8px rgba(247, 0, 0, 0.61);
+        height: 190px;
+
+    }
+
+    .texto_b > p{
+        text-align: justify;
+        text-indent: 30px;
+        color: rgba(38, 226, 0, 0.897);
+        text-shadow: 1px 0px 10px rgb(0, 0, 0);
+        text-transform: none;
+        margin: 8px;
+        position: relative;
+        top:12px;
+
+    }
+.texto_c{
+    background-color: rgba(10, 10, 10, 0.801);
+        border-radius: 7px;
+        box-shadow: 0px 0px 8px rgba(247, 0, 0, 0.61);
+        height: 100px;
+
+}
+.texto_c > p{
+        text-align: justify;
+        text-indent: 30px;
+        color: rgba(38, 226, 0, 0.897);
+        text-shadow: 1px 0px 10px rgb(0, 0, 0);
+        text-transform: none;
+        margin: 8px;
+        position: relative;
+        top:12px;
+
+} 
+.texto_c > a {
+    color: rgb(221, 245, 0);   
+     position: relative;
+    left: 35px;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: monospace;
+    
+}
+
+.texto_c > a > h4{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.612), rgba(0, 128, 0, 0.744),rgba(0, 128, 0, 0));
+    text-align: left;
+    margin-left: 2px;
+    text-indent: 20px;
+    font-size: 13pt;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.628);
+
+}
+.youtube{
+    width: 40px;
+    position: relative;
+    left: 52%;
+    bottom: 30px;
+    opacity: 70%;
+}
+.youtube:hover{
+    width: 50px;
+    transition: 0.5s;
+    opacity: 100%;
+}
+
+
+h2{
+    text-align: left;
+    text-indent: 50px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.527), rgb(0, 194, 0),rgba(0, 128, 0, 0.13));
+    border-radius: 10px;
+    color: rgb(0, 195, 255);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-family: monospace;
+    text-shadow: 0px 5px 8px black;
+}
+
+h3{
+background: linear-gradient( to right, rgba(1, 252, 34, 0.39),rgba(255, 0, 0, 0.712),rgba(255, 0, 0, 0.096));
+text-align: justify;
+text-indent: 20px;
+border-radius: 2px 2px 20px 20px;
+width: 300px;
+box-shadow: 0px 0px 8px black;
+color: rgb(221, 245, 0);
+text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.342);
+text-transform: uppercase;
+font-family: monospace;
+font-size: 13.5pt;
+letter-spacing: 1px;
+left: 355px;
+position: relative;
+}
+.mey{
+  position: relative;
+  left: 220px;
+  border-right: solid #FFD64D;
+  border-bottom: solid #FFD64D;
+  border-left: solid #4281B2;
+  border-top: solid #4281B2;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.733);
+    
+
+}
+
+ul{
+    list-style: none;
+    
+}
+
+
+.fim{
+    background-image: url("img/planodefundo.jpg");
+    height: 130px;
+    background-position:  left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 40px;
+    
+    
+}
+.fim > p{
+    text-align: left;
+    position: relative;
+    top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgba(255, 247, 247, 0.781);
+    font-family: footer;
+    font-size: 20pt;
+    text-shadow: 0px 0px 8px rgba(255, 0, 0, 0.719);
+    margin-left: 10px;
+    
+    
+
+    
+    
+}
+.in{
+    width: 36px;
+    opacity: 60%;
+    position: absolute;
+    top: 55px;
+    margin-left: 10PX;
+}
+.git{
+    width: 40px;
+    opacity: 40%;
+    position: absolute;
+    top:55px;
+    margin-left: 70pX;
+}
+.in:hover{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 8px 08px 0px rgba(0, 0, 0, 0.404);
+    transition: 0.5s;
+    opacity: 100%;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 10px;
+}
+
+.git:hover{
+    position: absolute;
+   
+    box-shadow: 8px 08px 0px rgba(0, 0, 0, 0.404);
+    transition: 0.5s;
+    opacity: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+.fim > a{
+    top: 60%;
+    ;
+}
+
+.b{
+    width: 60px;
+    position: relative;
+    bottom:30px;
+    border: 1px solid rgb(250, 248, 248);
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px rgba(245, 243, 243, 0.705);
+    opacity: 78%;
+    margin-left: 94%;
+}
+.exemplo_html{
+    width: 1100px;
+    border-radius: 4px;
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.69);
+}
