@@ -460,7 +460,11 @@ ul{
        
     header{   
         width: 99%;
-    height: 116px;}
+    height: 116px;
+    background-size: auto;
+
+
+                    }
 
     header > h1{
         font-size: 7pt;
@@ -554,8 +558,7 @@ display: block;
 }
 
 body{
-    background-image: url("img/planodefundo.jpg");
-    background-size: cover;
+    
     background-position: center;
    
     
