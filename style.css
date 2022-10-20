@@ -402,14 +402,14 @@ ul{
     width: 36px;
     opacity: 60%;
     position: absolute;
-    bottom: 55px;
+    top: 25px;
     margin-left: 10PX;
 }
 .git{
     width: 40px;
     opacity: 40%;
     position: absolute;
-    bottom:52px;
+    top:25px;
     margin-left: 70pX;
 }
 .in:hover{
@@ -434,7 +434,9 @@ ul{
 }
 
 .fim > a{
-    top: 30%;
+    
+    display: block;
+    
     
 }
 
