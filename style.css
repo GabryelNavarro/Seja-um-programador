@@ -489,13 +489,7 @@ ul{
         bottom: 14px;
     }
 
-    body{
-
-    background-position: center;
     
-
-    }
-
     h2{
     font-size: 7.5pt;
     text-indent: 5px;
@@ -561,7 +555,10 @@ display: block;
 
 body{
     background-image: url("img/planodefundo.jpg");
-    width: 100%;
+    background-size: auto;
+    background-position: center;
+   
+    
 }
 
 
