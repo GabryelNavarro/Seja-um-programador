@@ -14,7 +14,6 @@
 
 body{background-image: url("img/planodefundo.jpg");
     background-repeat: no-repeat;
-    background-position: left top;
     background-size:cover;
     background-attachment: fixed;
 
@@ -555,7 +554,9 @@ bottom: 5px;
 
 }
 
-
+body{
+    background-image: url("img/planodefundo.jpg");
+}
 
 
 .b{
@@ -567,6 +568,7 @@ bottom: 5px;
     .in{
         width: 20px;
         bottom:18px;
+        display: block;
        
     }  
 
@@ -574,5 +576,6 @@ bottom: 5px;
         width: 23px;
         bottom: 16px;
         left: -25px;
+        display: block;
     }
 }
