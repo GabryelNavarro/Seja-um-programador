@@ -461,11 +461,9 @@ ul{
     header{   
         width: 99%;
     height: 116px;
-    background-size: 50%;
 
 
-                    }
-
+    }
     header > h1{
         font-size: 7pt;
         top: 25px;
@@ -560,6 +558,8 @@ display: block;
 body{
     
     background-position: center;
+background-size: cover;
+
    
     
 }
