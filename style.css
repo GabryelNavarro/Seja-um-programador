@@ -557,6 +557,8 @@ display: block;
 
 body{
     background-image: url("img/planodefundo.jpg");
+    background-size: cover;
+    position: center;
     
 
    
