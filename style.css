@@ -80,7 +80,7 @@ header > p{
 
 nav{
     
-    word-spacing: 12px;
+    word-spacing: 5px;
     border-radius: 50px 25px 25px 45px ;
     top: 20px;
     position: absolute;
@@ -91,7 +91,7 @@ nav{
     background-image: linear-gradient( to right,rgba(53, 0, 0, 0.644), rgba(0, 46, 2, 0.822), rgba(54, 0, 5, 0.733));
     font-family: monospace;
     height: 25px;
-    width: 300px;
+    width: 247px;
      
 }
 a{
@@ -109,21 +109,21 @@ a{
 
 
 .home:hover{
-    bottom:0px;
+  
 
     font-weight: bolder;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
     transition: 0.3s;
     background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));   
      color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.486);
     
     border: 1px solid rgba(255, 0, 0, 0.514);
     position: relative;
-    padding: 5.5px;
-    margin: -5.4px;
-    right: 2px;
+    padding: 5.6px;
+    margin: -5.5px;
+    
     text-align: start;
 
 
@@ -133,82 +133,74 @@ a{
 
 
 .html:hover{
-    bottom:0px;
-
     font-weight: bolder;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
     transition: 0.3s;
     background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));   
      color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.486);
     
     border: 1px solid rgba(255, 0, 0, 0.514);
     position: relative;
-    padding: 5.5px;
-    margin: -5.4px;
-    right: 2px;
-    text-align: start;
+    padding: 5.6px;
+    margin: -5.5px;
     
+    text-align: start;
 
 }
 .css:hover{
-    bottom:0px;
-
     font-weight: bolder;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
     transition: 0.3s;
     background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));   
      color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.486);
     
     border: 1px solid rgba(255, 0, 0, 0.514);
     position: relative;
-    padding: 5.5px;
-    margin: -5.4px;
-    right: 2px;
+    padding: 5.6px;
+    margin: -5.5px;
+    
     text-align: start;
+
 }
 .python:hover{
-    bottom:0px;
-
     font-weight: bolder;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
     transition: 0.3s;
     background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));   
      color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.486);
     
     border: 1px solid rgba(255, 0, 0, 0.514);
-    position: relative;
-    padding: 5.5px;
-    margin: -5.4px;
-    right: 2px;
+    
+    padding: 5.6px;
+    margin: -5.5px;
+    
     text-align: start;
-
 
     
 }
 
 .sobre:hover{
-    bottom:0px;
-
     font-weight: bolder;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.884);
     transition: 0.3s;
     background-image: linear-gradient( to right, red,rgba(0, 0, 0, 0));   
      color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.486);
     
     border: 1px solid rgba(255, 0, 0, 0.514);
     position: relative;
-    padding: 5.5px;
-    margin: -5.4px;
-    right: 2px;
+    padding: 5.6px;
+    margin: -5.5px;
+    
     text-align: start;
+
 
 }
 
