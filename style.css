@@ -396,6 +396,7 @@ ul{
     position: absolute;
     top: 25px;
     margin-left: 10PX;
+    transition: 0.5s;
 }
 .git{
     width: 40px;
@@ -403,25 +404,28 @@ ul{
     position: absolute;
     top:25px;
     margin-left: 70pX;
+    transition: 0.5s;
 }
 .in:hover{
     background-color: white;
     border-radius: 4px;
     box-shadow: 8px 08px 0px rgba(0, 0, 0, 0.404);
-    transition: 0.5s;
+    
     opacity: 100%;
       border: 1px solid rgb(255, 255, 255);
       border-radius: 10px;
+      transform: scale(1.2);
 }
 
 .git:hover{
     position: absolute;
    
     box-shadow: 8px 08px 0px rgba(0, 0, 0, 0.404);
-    transition: 0.5s;
+    
     opacity: 100%;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
+    transform: scale(1.2);
 
 }
 
